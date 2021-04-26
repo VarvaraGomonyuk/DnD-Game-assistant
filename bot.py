@@ -161,7 +161,7 @@ def specialization(update, context):
 
 
 def main():
-    updater = Updater("1703572845:AAHsTrwCUzBwIycVsGJDwTrAHSxZJuzXhFw", use_context=True)
+    updater = Updater(TOKEN, use_context=True)
 
     dp = updater.dispatcher
 
